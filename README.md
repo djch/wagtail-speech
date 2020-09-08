@@ -42,7 +42,7 @@ These pages triggers the ``synthesize_speech_from_page`` method when they are ed
 You can find your saved audio stream on the ``page.audio_stream`` property (by default a low bitrate .mp3 file).
 
 ```python
-from wagtail.wagtailcore.models import Page
+from wagtail.core.models import Page
 from wagtailspeech.models import SynthesizeSpeechMixin
 
 class HomePage(SynthesizeSpeechMixin, Page):

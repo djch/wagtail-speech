@@ -1,4 +1,4 @@
-from wagtail.wagtailcore import hooks
+from wagtail.core import hooks
 
 from wagtailspeech.utils import synthesize_speech_from_page
 
